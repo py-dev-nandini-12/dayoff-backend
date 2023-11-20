@@ -1,5 +1,6 @@
 import json
 from auth_utils import validate_jwt_token, db
+from bson import ObjectId
 
 
 def create_trip(event, context):
